@@ -155,8 +155,8 @@ def compute_sample_weights(dataset: CocoSegmentationDataset) -> torch.Tensor:
 
 # test script
 def main(): 
-    images_dir = "/home/farhad/vjt/task_1/coco_dataset/train2017"
-    masks_dir = "/home/farhad/vjt/task_1/coco_dataset/masks_train"
+    images_dir = "/home/sher/vjt/task_1/coco_dataset/train2017"
+    masks_dir = "/home/sher/vjt/task_1/coco_dataset/masks_train"
     
     image_transform = transforms.Compose([
         transforms.Resize((256, 256)),

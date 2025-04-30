@@ -11,7 +11,7 @@ This repository contains a semantic segmentation project in PyTorch, model is tr
 ## Setup
 1. **Clone this repository**:
     ```bash
-    git clone https://github.com/mfarhadhussain/mask_generation_segmentation.git
+    https://github.com/smartmanufacturin/VJ_ASSIGNMENT.git
     ```
 2. **Create and activate a virtual environment** (recommended):
     ```bash

@@ -1,8 +1,8 @@
 dataset: 
-  masks_train_dir: "/home/farhad/vjt/task_1/coco_dataset/masks_train"
-  images_train_dir: "/home/farhad/vjt/task_1/coco_dataset/train2017"
-  masks_val_dir: "/home/farhad/vjt/task_1/coco_dataset/masks_val"
-  images_val_dir: "/home/farhad/vjt/task_1/coco_dataset/val2017"
+  masks_train_dir: "/home/sher/vjt/task_1/coco_dataset/masks_train"
+  images_train_dir: "/home/sher/vjt/task_1/coco_dataset/train2017"
+  masks_val_dir: "/home/sher/vjt/task_1/coco_dataset/masks_val"
+  images_val_dir: "/home/sher/vjt/task_1/coco_dataset/val2017"
 
 
 model:
@@ -20,7 +20,7 @@ training:
   predictions_dir: "predictions" 
 
 inference: 
-  test_images_dir: "/home/farhad/vjt/task_2/test_images" # for images dir 
+  test_images_dir: "/home/sher/vjt/task_2/test_images" # for images dir 
   inference_results_dir: "test_results"
   image_path: None # For individual image inferencing 
 
