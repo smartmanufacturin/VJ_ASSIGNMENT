@@ -1,0 +1,27 @@
+dataset: 
+  masks_train_dir: "/home/farhad/vjt/task_1/coco_dataset/masks_train"
+  images_train_dir: "/home/farhad/vjt/task_1/coco_dataset/train2017"
+  masks_val_dir: "/home/farhad/vjt/task_1/coco_dataset/masks_val"
+  images_val_dir: "/home/farhad/vjt/task_1/coco_dataset/val2017"
+
+
+model:
+  in_channels: 3
+  out_channels: 10
+  model_folder: 'weights/vjts_0'  
+  model_basename: 'vjts_0'
+  preload: 'latest'
+
+training:
+  batch_size: 16
+  lr: 0.0001
+  num_epochs: 100
+  experiment_name: 'runs/vjts_0' # tensorboard 
+  predictions_dir: "predictions" 
+
+inference: 
+  test_images_dir: "/home/farhad/vjt/task_2/test_images" # for images dir 
+  inference_results_dir: "test_results"
+  image_path: None # For individual image inferencing 
+
+
